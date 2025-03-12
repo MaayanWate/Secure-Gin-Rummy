@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+/* Main container styling for the application */
+.app-container {
+  text-align: center;
+  padding: 0px;
+}
+
+/* Styling for the board container */
+.board-container {
+  background: linear-gradient(135deg, #fdf2f2, #fde2e2);
+  padding: -10px; /* Reduced padding */
+  border-radius: 10px;
+  margin: -35px auto; /* Reduced external margin */
+  width: 70%;
+  max-width: 900px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Layout for the stock and discard row */
+.stock-discard-row {
+  display: flex;
+  justify-content: center; /* Center elements horizontally */
+  align-items: center;
+  margin-bottom: 60px; /* Reduced bottom margin */
+}
+
+/* Side margin for stock and discard piles */
+.stock-pile,
+.discard-pile {
+  margin: 0 60px; /* Reduced side margins */
+}
+
+/* Styling for the stock card back image */
+.stock-card-back {
+  width: 100px;
+  height: auto;
+  display: block;
+}
+
+/* Styling for the players container */
+.players {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px; /* Reduced top margin */
+}
+
+/* Styling for an individual player's container */
+.player-container {
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px; /* Reduced bottom margin between players */
+}
+
+/* Styling for the hand container */
+.hand {
+  position: relative;
+  width: 700px;
+  height: 160px;
+  margin: 0 auto;
+  border: 1px solid transparent;
+}
+
+/* Styling for the container of draw buttons */
+.draw-buttons {
+  margin-bottom: 10px; /* Reduced bottom margin */
+}
+
+/* Styling for draw buttons */
+.draw-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #800000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Hover effect for draw buttons */
+.draw-button:hover {
+  background: #800000;
+}
+
+/* Styling for game messages */
+.game-message {
+  margin-top: 10px; /* Reduced top margin */
+  font-weight: bold;
+  color: red;
+}
+
+/* Styling for the empty stock display */
+.empty-stock {
+  width: 90px;
+  height: 140px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for the score board */
+.score-board {
+  margin-bottom: 10px; /* Reduced bottom margin */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Styling for the game title */
+.title {
+  font-family: 'Georgia', serif;  /* Elegant font */
+  color: #ffffff;                 /* White text color */
+  background-color: #800000;      /* Burgundy background */
+  border: 2px solid #800000;      /* Burgundy border */
+  border-radius: 8px;             /* Rounded corners */
+  padding: 10px 20px;             /* Internal padding */
+  display: inline-block;          /* Allows styling the border around the text */
+  font-size: 2.5em;               /* Font size */
+  text-align: center;
+  margin-top: 10px; /* Adds top margin to the title */
+}

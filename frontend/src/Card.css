@@ -1,0 +1,237 @@
+/* Card styles */
+.card {
+  width: 90px;
+  height: 140px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: #fff;
+  position: relative;
+  margin: 5px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+/* Red/Black card color */
+.red-card {
+  color: red;
+}
+
+.black-card {
+  color: black;
+}
+
+/* Card corners */
+.corner {
+  position: absolute;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.top-left {
+  top: 5px;
+  left: 5px;
+}
+
+.top-right {
+  top: 5px;
+  right: 5px;
+}
+
+.bottom-left {
+  bottom: 5px;
+  left: 5px;
+  transform: rotate(180deg);
+}
+
+.bottom-right {
+  bottom: 5px;
+  right: 5px;
+  transform: rotate(180deg);
+}
+
+.corner-rank {
+  font-weight: bold;
+}
+
+.corner-suit {
+  font-size: 14px;
+}
+
+/* Card center content */
+.card-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-suit {
+  font-size: 20px;
+  margin: 2px;
+}
+
+/* Display large center content for A, J, Q, K cards */
+.card-center-big {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  text-align: center;
+}
+
+/* 1) Entry animation (fade + scale) */
+.card-animate {
+  animation: fadeInScale 0.3s ease-in-out;
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Duplicate styles repeated for consistency */
+
+.card {
+  width: 90px;
+  height: 140px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: #fff;
+  position: relative;
+  margin: 5px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+/* Red/Black card color */
+.red-card {
+  color: red;
+}
+
+.black-card {
+  color: black;
+}
+
+/* Card corners */
+.corner {
+  position: absolute;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.top-left {
+  top: 5px;
+  left: 5px;
+}
+
+.top-right {
+  top: 5px;
+  right: 5px;
+}
+
+.bottom-left {
+  bottom: 5px;
+  left: 5px;
+  transform: rotate(180deg);
+}
+
+.bottom-right {
+  bottom: 5px;
+  right: 5px;
+  transform: rotate(180deg);
+}
+
+.corner-rank {
+  font-weight: bold;
+}
+
+.corner-suit {
+  font-size: 14px;
+}
+
+/* Card center content */
+.card-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-suit {
+  font-size: 20px;
+  margin: 2px;
+}
+
+/* Display large center content for A, J, Q, K cards */
+.card-center-big {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  text-align: center;
+}
+
+/* 1) Entry animation (fade + scale) */
+.card-animate {
+  animation: fadeInScale 0.3s ease-in-out;
+}
+
+.king-img {
+  max-width: 80px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.queen-img {
+  max-width: 60px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.prince-img {
+  max-width: 60px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
